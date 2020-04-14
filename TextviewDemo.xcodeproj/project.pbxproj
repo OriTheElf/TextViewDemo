@@ -12,26 +12,7 @@
 		B635F339201DA70C00A81706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B635F337201DA70C00A81706 /* Main.storyboard */; };
 		B635F33B201DA70C00A81706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B635F33A201DA70C00A81706 /* Assets.xcassets */; };
 		B635F33E201DA70C00A81706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B635F33C201DA70C00A81706 /* LaunchScreen.storyboard */; };
-		B635F349201DA70C00A81706 /* TextviewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B635F348201DA70C00A81706 /* TextviewDemoTests.swift */; };
-		B635F354201DA70C00A81706 /* TextviewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B635F353201DA70C00A81706 /* TextviewDemoUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B635F345201DA70C00A81706 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B635F328201DA70C00A81706 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B635F32F201DA70C00A81706;
-			remoteInfo = TextviewDemo;
-		};
-		B635F350201DA70C00A81706 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B635F328201DA70C00A81706 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B635F32F201DA70C00A81706;
-			remoteInfo = TextviewDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B635F330201DA70C00A81706 /* TextviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		B635F33A201DA70C00A81706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B635F33D201DA70C00A81706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B635F33F201DA70C00A81706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B635F344201DA70C00A81706 /* TextviewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextviewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B635F348201DA70C00A81706 /* TextviewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextviewDemoTests.swift; sourceTree = "<group>"; };
-		B635F34A201DA70C00A81706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B635F34F201DA70C00A81706 /* TextviewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextviewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B635F353201DA70C00A81706 /* TextviewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextviewDemoUITests.swift; sourceTree = "<group>"; };
-		B635F355201DA70C00A81706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B635F32D201DA70C00A81706 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B635F341201DA70C00A81706 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B635F34C201DA70C00A81706 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				B635F332201DA70C00A81706 /* TextviewDemo */,
-				B635F347201DA70C00A81706 /* TextviewDemoTests */,
-				B635F352201DA70C00A81706 /* TextviewDemoUITests */,
 				B635F331201DA70C00A81706 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				B635F330201DA70C00A81706 /* TextviewDemo.app */,
-				B635F344201DA70C00A81706 /* TextviewDemoTests.xctest */,
-				B635F34F201DA70C00A81706 /* TextviewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				B635F33F201DA70C00A81706 /* Info.plist */,
 			);
 			path = TextviewDemo;
-			sourceTree = "<group>";
-		};
-		B635F347201DA70C00A81706 /* TextviewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				B635F348201DA70C00A81706 /* TextviewDemoTests.swift */,
-				B635F34A201DA70C00A81706 /* Info.plist */,
-			);
-			path = TextviewDemoTests;
-			sourceTree = "<group>";
-		};
-		B635F352201DA70C00A81706 /* TextviewDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B635F353201DA70C00A81706 /* TextviewDemoUITests.swift */,
-				B635F355201DA70C00A81706 /* Info.plist */,
-			);
-			path = TextviewDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = B635F330201DA70C00A81706 /* TextviewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B635F343201DA70C00A81706 /* TextviewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B635F35B201DA70C00A81706 /* Build configuration list for PBXNativeTarget "TextviewDemoTests" */;
-			buildPhases = (
-				B635F340201DA70C00A81706 /* Sources */,
-				B635F341201DA70C00A81706 /* Frameworks */,
-				B635F342201DA70C00A81706 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B635F346201DA70C00A81706 /* PBXTargetDependency */,
-			);
-			name = TextviewDemoTests;
-			productName = TextviewDemoTests;
-			productReference = B635F344201DA70C00A81706 /* TextviewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B635F34E201DA70C00A81706 /* TextviewDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B635F35E201DA70C00A81706 /* Build configuration list for PBXNativeTarget "TextviewDemoUITests" */;
-			buildPhases = (
-				B635F34B201DA70C00A81706 /* Sources */,
-				B635F34C201DA70C00A81706 /* Frameworks */,
-				B635F34D201DA70C00A81706 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B635F351201DA70C00A81706 /* PBXTargetDependency */,
-			);
-			name = TextviewDemoUITests;
-			productName = TextviewDemoUITests;
-			productReference = B635F34F201DA70C00A81706 /* TextviewDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,16 +97,6 @@
 					B635F32F201DA70C00A81706 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					B635F343201DA70C00A81706 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B635F32F201DA70C00A81706;
-					};
-					B635F34E201DA70C00A81706 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = B635F32F201DA70C00A81706;
 					};
 				};
 			};
@@ -221,8 +114,6 @@
 			projectRoot = "";
 			targets = (
 				B635F32F201DA70C00A81706 /* TextviewDemo */,
-				B635F343201DA70C00A81706 /* TextviewDemoTests */,
-				B635F34E201DA70C00A81706 /* TextviewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +129,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B635F342201DA70C00A81706 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B635F34D201DA70C00A81706 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,36 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B635F340201DA70C00A81706 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B635F349201DA70C00A81706 /* TextviewDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B635F34B201DA70C00A81706 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B635F354201DA70C00A81706 /* TextviewDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B635F346201DA70C00A81706 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B635F32F201DA70C00A81706 /* TextviewDemo */;
-			targetProxy = B635F345201DA70C00A81706 /* PBXContainerItemProxy */;
-		};
-		B635F351201DA70C00A81706 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B635F32F201DA70C00A81706 /* TextviewDemo */;
-			targetProxy = B635F350201DA70C00A81706 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B635F337201DA70C00A81706 /* Main.storyboard */ = {
@@ -450,68 +298,6 @@
 			};
 			name = Release;
 		};
-		B635F35C201DA70C00A81706 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TextviewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.sidhu.iOS.TextviewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextviewDemo.app/TextviewDemo";
-			};
-			name = Debug;
-		};
-		B635F35D201DA70C00A81706 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TextviewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.sidhu.iOS.TextviewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextviewDemo.app/TextviewDemo";
-			};
-			name = Release;
-		};
-		B635F35F201DA70C00A81706 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TextviewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.sidhu.iOS.TextviewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TextviewDemo;
-			};
-			name = Debug;
-		};
-		B635F360201DA70C00A81706 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TextviewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.sidhu.iOS.TextviewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TextviewDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,24 +315,6 @@
 			buildConfigurations = (
 				B635F359201DA70C00A81706 /* Debug */,
 				B635F35A201DA70C00A81706 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B635F35B201DA70C00A81706 /* Build configuration list for PBXNativeTarget "TextviewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B635F35C201DA70C00A81706 /* Debug */,
-				B635F35D201DA70C00A81706 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B635F35E201DA70C00A81706 /* Build configuration list for PBXNativeTarget "TextviewDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B635F35F201DA70C00A81706 /* Debug */,
-				B635F360201DA70C00A81706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
