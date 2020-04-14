@@ -39,7 +39,7 @@ class AddNoteViewController: UIViewController {
         let tapPosition: UITextPosition = notesTextView.closestPosition(to: location1)!
         
         let location2: CGPoint = recognizer.location(in: notesTextView)
-        print("location before: \(location2)")
+        print("location after: \(location2)")
         
         
         guard let textRange: UITextRange = notesTextView.tokenizer.rangeEnclosingPosition(tapPosition, with: .word, inDirection: 1) else { return }
